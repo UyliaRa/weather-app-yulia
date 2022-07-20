@@ -1,5 +1,7 @@
 import React from "react";
+import axios from 'axios';
 import "./CurrentWeather.css";
+import CurrentTemperature from "./CurrentTemperature";
 
 import MainIcon from "./MainIcon";
 
@@ -24,7 +26,7 @@ export default function CurrentWeather() {
           <div class="imageTemp">
             <MainIcon />
             <div>
-              <span id="currentTemperature" class="curTemp"></span>
+              <span class="curTemp"><h1><CurrentTemperature/></h1></span>
             </div>
           </div>
         </div>
