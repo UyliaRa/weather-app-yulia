@@ -45,5 +45,7 @@ export default function CurrentWeather() {
         </div>
       </div>
     </div>
+  
   );
+
 }

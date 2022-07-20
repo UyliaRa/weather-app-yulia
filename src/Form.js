@@ -32,6 +32,7 @@ export default function Form() {
         </div>
       </form>
       <CurrentWeather />
+      <div><h6>This app was coded by Yulia Ratseburzhynska, and is <a href="https://github.com/UyliaRa/weather-app-yulia">open-sourced</a></h6></div>
     </div>
   );
 }
