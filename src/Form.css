@@ -1,0 +1,14 @@
+.Form {
+    border: 1px solid #ffc94e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    max-width: 600px;
+  }
+  
+  .btn-success {
+    background-color: #ffc94e !important;
+    border-color: #ffc94e !important;
+    position: relative;
+  }
+  
