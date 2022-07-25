@@ -7,7 +7,7 @@ function App() {
     <div className="WeatherApp">
       <Form defaultCity="Kyiv" />
       <div>
-        <h6>
+        <h6 class="sign">
           This app was coded by Yulia Ratseburzhynska, and is{" "}
           <a href="https://github.com/UyliaRa/weather-app-yulia">
             open-sourced

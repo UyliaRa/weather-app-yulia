@@ -1,0 +1,10 @@
+.WeatherForecast-temperature-max {
+    font-weight: 500;
+  }
+  .WeatherForecast-temperature-min {
+    opacity: 0.5;
+  }
+  .WeatherForecastDay {
+    margin-left: 5px;
+  }
+  

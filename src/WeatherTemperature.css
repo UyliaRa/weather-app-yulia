@@ -1,16 +1,15 @@
 .WeatherTemperature {
-    position: absolute;
-    text-align: center;
-    margin-left: 20px;
-    line-height: 1;
-  }
-  
-  .curTemp {
-    font-size: 40px;
-    font-weight: 500;
-  }
-  .unit {
-    font-size: 12px;
-    font-weight: bolder;
-  }
-  
+  position: absolute;
+  text-align: center;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.curTemp {
+  font-size: 40px;
+  font-weight: 500;
+}
+.unit {
+  font-size: 12px;
+  font-weight: bolder;
+}

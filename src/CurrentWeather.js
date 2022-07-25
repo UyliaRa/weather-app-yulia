@@ -24,18 +24,17 @@ export default function CurrentWeather(props) {
           </div>
         </div>
         <div className="col-2">
-          <div classNAme="imageTemp">
+          <div className="imageTemp">
             <MainIcon code={props.data.icon} />
             <WeatherTemperature celsius={props.data.temperature} />
           </div>
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-5 d-flex justify-content-sm-end">
           <div class="currentCondition">
             <ul>
               <li>
                 <strong>Humidity: </strong>
-                <span id="humidity"></span>
-                {props.data.humidity}%
+                <span>{props.data.humidity}%</span>
               </li>
               <li>
                 <strong>Wind: </strong>
